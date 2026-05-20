@@ -50,7 +50,7 @@ export default function App() {
     }
     return [];
   });
-  const [selectedModel, setSelectedModel] = React.useState<string>(() => localStorage.getItem(MODEL_STORAGE) || "gemini-3-flash-preview");
+  const [selectedModel, setSelectedModel] = React.useState<string>(() => localStorage.getItem(MODEL_STORAGE) || "gemini-3.5-flash");
   const [isApiKeyModalOpen, setIsApiKeyModalOpen] = React.useState(false);
   const [isSettingsModalOpen, setIsSettingsModalOpen] = React.useState(false);
   const [apiKeyError, setApiKeyError] = React.useState<string | null>(null);
