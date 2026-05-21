@@ -31,7 +31,7 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart, onToggleSideb
       name: name.trim(),
       appearance: appearance.trim() || "nhan sắc sắc nước hương trời, thanh khiết hệt như một đóa sen trắng",
       personality: personality.trim(),
-      age: 20,
+      age: 18,
       background: "Con gái rượu của Thầy Đồ (Thầy giáo làng) có tiếng tăm về sự thanh bạch ở Vĩnh Long. Thường gọi là Cô giáo {{user}} hoặc Mợ Hai (sau khi cưới). Năm nay cô 20 tuổi. Được cha dạy chữ Nho và chữ Quốc ngữ từ nhỏ. Đặc biệt có khiếu ngoại ngữ, nói tiếng Pháp lưu loát, tư tưởng tân tiến, mong muốn đi dạy học để khai dân trí."
     }, selectedAvatar);
   };
